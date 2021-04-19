@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="421dp"
+        android:layout_height="95dp"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.133"
+        app:srcCompat="@drawable/ic_wave" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="415dp"
+        android:layout_height="103dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background_primary" />
+
+    <EditText
+        android:id="@+id/etMobil1"
+        android:layout_width="338dp"
+        android:layout_height="46dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Nilai Jual Mobil 1"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#777"
+        android:textColorHint="#777"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:background="@drawable/button_outline"
+        android:text="View"
+        android:textAllCaps="false"
+        android:textColor="#03ac0e"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.734" />
+
+    <EditText
+        android:id="@+id/etMobil3"
+        android:layout_width="338dp"
+        android:layout_height="46dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Nilai Jual Mobil 3"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#777"
+        android:textColorHint="#777"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="338dp"
+        android:layout_height="46dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Masukkan Nama"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#777"
+        android:textColorHint="#777"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <EditText
+        android:id="@+id/etMobil2"
+        android:layout_width="338dp"
+        android:layout_height="46dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Nilai Jual Mobil 2"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#777"
+        android:textColorHint="#777"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Menghitung Total Pajak"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="#777"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.263" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
